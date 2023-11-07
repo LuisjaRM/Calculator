@@ -1,0 +1,32 @@
+.parameters-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.parameters-form fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: none;
+}
+
+.parameters-form label {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.parameters-form select {
+  height: 2rem;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+}
+
+/* Responsive */
+
+@media (min-width: 1000px) {
+  .parameters-form {
+    gap: 0.5rem;
+  }
+}

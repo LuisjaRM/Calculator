@@ -1,0 +1,72 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.calculator select {
+  height: 2rem;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+}
+
+.parameters-selected {
+  padding-left: 1rem;
+  list-style: square;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid orange;
+}
+
+.parameters-selected li,
+.price-title {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.price {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(182, 182, 182, 0.87);
+  color: black;
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.dimensioning {
+  margin-top: 0.25rem;
+  font-size: 0.65rem;
+  text-align: left;
+  line-height: 0.75rem;
+}
+
+.send-email {
+  border: 1px solid orange;
+  height: 10rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+.send-email form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.send-email fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: none;
+}
+
+.send-email input {
+  height: 2rem;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+}
